@@ -1,0 +1,71 @@
+/* Our story button */
+.our-story{
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background-color: rgb(244, 34, 103);
+    color: white;
+    font-family: Verdana (sans-serif);
+}  
+.our-story::before {
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+} 
+.our-story:hover::before {
+    width: 9em;
+}
+.our-story:hover{
+    color: black;
+}
+
+/* Read more button */
+.read-more{
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background-color:  rgb(95, 63, 184);
+    color: white;
+    font-family: Verdana (sans-serif);
+}  
+.read-more::before {
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+} 
+.read-more:hover::before {
+    width: 9em;
+}
+.read-more:hover{
+    color: black;
+}
