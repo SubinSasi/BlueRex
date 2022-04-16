@@ -70,7 +70,7 @@
         background: black;
     }
 }
-@media only screen and (max-width: 970px){
+@media only screen and (max-width: 950px){
     .image-div{
         display: none;
     }
