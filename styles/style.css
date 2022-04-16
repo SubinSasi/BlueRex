@@ -1,3 +1,12 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    scroll-behavior: smooth;
+}
 .header{
     background-image: url(/images/bg.png);
     width: 100%;
@@ -92,5 +101,11 @@
     }
     .content-div{
         margin-bottom: 3em;
+    }
+    .form-control{
+        margin-left: 2em;
+    }
+    .contact-btn{
+        margin-top: 1.5em;
     }
 }
