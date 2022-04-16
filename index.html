@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/button.css">
     <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/features.css">
 </head>
 <body>
 <!-- Start Home page  -->
@@ -28,8 +29,8 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
                         <a href="#" class="nav-item nav-link" style="color: white; font-size: 20px;">Home</a>
-                        <a href="#" class="nav-item nav-link" style="color: white; font-size: 20px;">About</a>
-                        <a href="#" class="nav-item nav-link" style="color: white; font-size: 20px;">Features</a>
+                        <a href="#about" class="nav-item nav-link" style="color: white; font-size: 20px;">About</a>
+                        <a href="#features" class="nav-item nav-link" style="color: white; font-size: 20px;">Features</a>
                         <a href="#" class="nav-item nav-link" style="color: white; font-size: 20px;">Product</a>
                         <a href="#" class="nav-item nav-link" style="color: white; font-size: 20px;">Reviews</a>
                         <a href="#" class="nav-item nav-link" style="color: white; font-size: 20px;">Faq</a>
@@ -53,14 +54,17 @@
               </div>
             </div>
         </div>
+
     </div>
 <!-- End home page -->
-    <div class="about-page">
+<!-- Start about page -->
+    <div class="about-page" id="about">
+
         <div class="container about-respone">
             <div class="row about-div">
               <div class="col dream-div">
                 <p class="Dream_Big_Inspire_the_World">Dream Big Inspire the World</p>
-                <p class="We_turn_creative_ideas_into_your_business_">We turn creative ideas into business.</p>
+                <p class="We_turn_creative_ideas_into_your_business_">We turn creative ideas into your business.</p>
                 <ul class="about-btns">
                     <li><button class="wmb-btn">WEB DESIGN</button></li>
                     <li><button class="wmb-btn">MOBILE APP</button></li>
@@ -75,9 +79,41 @@
               </div>
             </div>
         </div>
+<!-- end about page -->
+<!-- Start Features page -->
+        <div class="row purple-div" id="features">
+            <div class="col achieve-1 col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <img src="images/horn.png" class="horn-icon">
+                <p class="number-achieve">500+</p>
+                <p class="bold-achieve">Successfully <br> Completed Projects</p>
+                <p class="Lorem_ipsum_achieve">Lorem Ipsum has been the industry's standard dummy <br> text ever since the 1500,</p>
+            </div>
+            <div class="col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 achieve-2">
+                <img src="images/horn.png" class="horn-icon">
+                <p class="number-achieve">254+</p>
+                <p class="bold-achieve">Highly Specialized <br> Employees</p>
+                <p class="Lorem_ipsum_achieve">Lorem Ipsum has been the industry's standard dummy <br> text ever since the 1500s</p>
+            </div>
+            <div class="col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 achieve-3">
+                <img src="images/horn.png" class="horn-icon">
+                <p class="number-achieve">45+</p>
+                <p class="bold-achieve">Awards <br> Around the World</p>
+                <p class="Lorem_ipsum_achieve">Lorem Ipsum has been the industry's standard dummy <br> text ever since the 1500s</p>
+            </div>
+        </div>
+
+        <div class="grow-div">
+            <p class="Let_s_Grow_Together">Let's Grow Together</p>
+            <p class="grow-creative">We turn creative ideas into your business.</p>
+            <p class="grow-dummy-text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br> when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <button class="grow-learn-more">READ MORE</button>
+        </div>
+
     </div>
+<!-- End features page -->
+   
 
-
+    
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

@@ -1,7 +1,7 @@
 .header{
     background-image: url(/images/bg.png);
     width: 100%;
-    height: 700px;
+    height: auto;
 }
 .text-image{
     margin-top: 8em;
@@ -49,7 +49,6 @@
 }
 .replace-image{
     height: 550px;
-    padding-bottom: 2.5em;
 }
 
 
@@ -70,7 +69,7 @@
         background: black;
     }
 }
-@media only screen and (max-width: 950px){
+@media only screen and (max-width: 960px){
     .image-div{
         display: none;
     }
@@ -89,6 +88,9 @@
         display: none;
     }
     .about-respone{
+        margin-bottom: 3em;
+    }
+    .content-div{
         margin-bottom: 3em;
     }
 }
